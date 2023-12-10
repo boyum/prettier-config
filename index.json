@@ -8,5 +8,10 @@
   "singleQuote": false,
   "tabWidth": 2,
   "trailingComma": "all",
-  "plugins": ["prettier-plugin-jsdoc", "@trivago/prettier-plugin-sort-imports", "prettier-plugin-packagejson"]
+  "plugins": [
+    "prettier-plugin-jsdoc",
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-packagejson"
+  ],
+  "importOrder": ["<THIRD_PARTY_MODULES>", "^[./]"]
 }
